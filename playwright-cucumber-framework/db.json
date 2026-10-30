@@ -1,0 +1,11 @@
+{
+  "posts": [
+    {
+      "title": "qa-assignment",
+      "body": "Created by Playwright",
+      "userId": 1,
+      "id": "pMzbepuH5yg"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

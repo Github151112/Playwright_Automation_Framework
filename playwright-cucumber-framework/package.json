@@ -1,0 +1,23 @@
+{
+  "name": "simple-playwright-cucumber-framework",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "mock-api": "json-server db.json --port 3000",
+    "test": "cucumber-js",
+    "test:ui": "cucumber-js --tags @ui",
+    "test:api": "cucumber-js --tags @api",
+    "report": "node scripts/report.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.3.0",
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^22.20.5",
+    "cucumber-html-reporter": "^7.2.0",
+    "dotenv": "^16.5.0",
+    "json-server": "^1.0.0-beta.15",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
